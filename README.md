@@ -80,3 +80,31 @@ AWS CDK v3 JS
 "react-dom": "^18",
 ami-051f8a213df8bc089 (Amazon Linux 2023)
 ```
+
+
+# References
+https://github.com/ai/nanoid#readme
+https://stackoverflow.com/questions/72597602/nanoid4-in-codecept-error-err-require-esm-require-of-es-module
+https://stackoverflow.com/questions/70800567/return-oldm-filename-error-err-require-esm-require-of-es-module
+https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+https://mui.com/material-ui/react-button/#file-upload
+https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/ec2-example-creating-an-instance.html
+https://www.iguazio.com/docs/latest-release/cluster-mgmt/deployment/cloud/aws/howto/iam-role-n-instance-profile-create/
+https://www.youtube.com/watch?v=nlb8yo7SZ2I
+https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/setting-up-node-on-ec2-instance.html
+https://www.warp.dev/terminus/curl-post-request
+https://medium.com/tomincode/launching-ec2-instances-from-lambda-4a96f1264afb
+https://medium.com/@chaosgears/dynamodb-streams-handy-and-tricky-as-well-2968b740a9b8#:~:text=yml)%7D%20in%20the%20serverless,yml%20file.&text=You%20probably%20notice%20the%20parameter,old%20images%20of%20the%20item.
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html
+https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/
+https://www.youtube.com/watch?v=7aGYmQ1xDr0
+https://www.youtube.com/watch?v=KmjEU_Ba4yA
+https://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.Tutorial2.html
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.Tutorial2.html
+https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventfiltering.html
+https://www.youtube.com/watch?v=lss7T0R019M
+https://www.youtube.com/watch?v=Hg80rQ2eoEI
+https://stackoverflow.com/questions/3260739/add-keypair-to-existing-ec2-instance
+https://medium.com/@brianhulela/upload-files-to-aws-s3-bucket-from-react-using-pre-signed-urls-543cca728ab8
+https://medium.com/p/c75b16604d97
