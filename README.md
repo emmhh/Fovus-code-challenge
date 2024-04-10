@@ -1,5 +1,7 @@
 # Fovus Code Challenge - submission
 
+**Yang Ma**
+
 Please forgive me for not adding .gitignore :D
 
 demo link: 
