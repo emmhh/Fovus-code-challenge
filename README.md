@@ -4,7 +4,7 @@
 
 Please forgive me for not adding .gitignore :D
 
-demo link: 
+demo link:  https://youtu.be/-PvsZCwobU8?si=_aULqpspwJTybgqM
 
 ## Description
 Full stack project 
