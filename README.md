@@ -55,7 +55,7 @@ zip -r deploy.zip ./
 aws lambda create-function --function-name interact-DynamoDB --zip-file fileb://deploy.zip --handler index.handler --runtime nodejs20.x --role [arn of your role]
 ```
 
-### specs
+### specs quick peak
 
 ```bash
 node.js v20.10.0
@@ -72,12 +72,3 @@ AWS CDK v3 JS
 "react-dom": "^18",
 ami-051f8a213df8bc089 (Amazon Linux 2023)
 ```
-
-
-### Prerequisites
-
-What things you need to install the software and how to install them:
-
-```bash
-# Include commands to install any required software.
-npm install npm@latest -g
