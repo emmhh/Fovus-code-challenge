@@ -48,12 +48,18 @@ aws lambda create-function --function-name interact-DynamoDB --zip-file fileb://
 - test with postman
 
 #### DynamoDB Trigger - activate on "INSERT" event.
+create new lambda function in cloud, past the code in lambda-implementations/index.mjs and deploy. Add trigger in the cloud console to listen to dynamoDB data stream. this script prepares the ec2 instance, pass in the parameter, and run the scripts. It also catches the log file just for debugging, i.e. just in case when scripts in ec2 failed before storing log file.
+another debug option is to save the .pem to s3 when creating the instance, but this is not the best practices, should be avoided.
+
+#### upload scripts to S3 for ec2 instance
+
 ```bash
-cd lambda-implementations/interact-DynamoDB
-npm install
+cd scripts-in-ec2
 zip -r deploy.zip ./
-aws lambda create-function --function-name interact-DynamoDB --zip-file fileb://deploy.zip --handler index.handler --runtime nodejs20.x --role [arn of your role]
+aws s3 cp script.zip s3://fovus-app-file-storage-test/script.zip
 ```
+
+after all connected and working, upload a file and text input from front end would trigger all lambda functions, and there will be instances triggered and terminated, resultting in a output file in S3 and output_file_path in dynamoDB. The id of all dynamoDB are managed with `"nanoid": "^5.0.7"`
 
 ### specs quick peak
 
