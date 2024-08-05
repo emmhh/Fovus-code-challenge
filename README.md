@@ -1,10 +1,6 @@
 # Fovus Code Challenge - submission
 
-**Yang Ma**
-
-Please forgive me for not adding .gitignore :D
-
-demo link:  https://youtu.be/-PvsZCwobU8?si=_aULqpspwJTybgqM
+quick demo link:  https://youtu.be/-PvsZCwobU8?si=_aULqpspwJTybgqM
 
 ## Description
 Full stack project 
